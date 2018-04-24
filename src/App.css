@@ -1,0 +1,19 @@
+.main-header {
+  text-align: center;
+  background: lightskyblue;
+  color: white;
+}
+
+.video-link {
+  font-weight: bold;
+  color: red
+}
+
+.container {
+  background-color: whitesmoke;
+  padding: 5%;
+}
+
+.button-space {
+  margin-right: 5px;
+}
