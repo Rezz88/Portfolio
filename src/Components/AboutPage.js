@@ -23,6 +23,10 @@ class AboutPage extends Component {
                 <ul>
                     {this.mySkills().map( x => <li>{x}</li>)}
                 </ul>
+                <div>
+                    <h5>You can view my resume <a href="https://docs.google.com/document/d/1kUg102acf8BV4rMA1wyFisX9PCcOAwgGgcT0wS9bDTQ/edit?usp=sharing" target="_blank" rel="noopener noreferrer" >here</a></h5>
+                    
+                </div>
             </div>
         );
     }
