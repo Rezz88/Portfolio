@@ -11,7 +11,8 @@ class TodoPage extends Component {
         if (this.input.value === "") {
             return null;
         }
-        this.setState({ list: this.state.list.concat(this.input.value) })
+        this.setState({ list: this.state.list.concat(this.input.value) });
+        localStorage.setItem("List - Data", this.state.list);
         this.input.value = null;
     }
 
