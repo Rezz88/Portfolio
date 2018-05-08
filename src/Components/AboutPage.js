@@ -15,7 +15,7 @@ class AboutPage extends Component {
         return (
             <div className="container">
                 <h3 className="main-header">React Tutorial</h3>
-                <button onClick={this.renderHome}>Home</button>
+                <button className="button" onClick={this.renderHome}>Home</button>
                 <hr />
                 <h2>My name is Emmanuel Perez,</h2>
                 <p>I'm a junior web developer who recently graduated from DecodeMTL.</p>
@@ -24,11 +24,13 @@ class AboutPage extends Component {
                     {this.mySkills().map(x => <li>{x}</li>)}
                 </ul>
                 <div>
-                    <h3>Project 1</h3>
+                    <hr/>
+                    <h2>P R O J E C T S</h2>
+                    <h4>Tribute Page</h4>
                     <p>This is project 1</p>
-                    <h3>Project 2</h3>
+                    <h4>WhatsLit</h4>
                     <p>This is project 2</p>
-                    <h3>Project 3</h3>
+                    <h4>Alibay Marketplace</h4>
                     <p>This is project 3</p>
                 </div>
                 <div>

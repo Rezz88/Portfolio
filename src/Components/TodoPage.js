@@ -31,13 +31,13 @@ class TodoPage extends Component {
             <div className="container">
                 <h3 className="main-header">React Tutorial</h3>
                 <div>
-                    <button onClick={this.returnHome}>Home</button>
+                    <button className="button" onClick={this.returnHome}>Home</button>
                     <hr/>
                 </div>
                 <h2>Todo List</h2>
-                <input type="text" placeholder="Add item..." ref={r => this.input = r}></input>
-                <button onClick={this.add}>Add</button>
-                <button onClick={this.remove}>Delete list</button>
+                <input className="button-space" type="text" placeholder="Add item..." ref={r => this.input = r}></input>
+                <button className="button button-space" onClick={this.add}>Add</button>
+                <button className="button" onClick={this.remove}>Delete list</button>
                 {this.state.list.map(x => <li>{x}</li>)}
             </div>
             

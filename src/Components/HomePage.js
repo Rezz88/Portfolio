@@ -29,8 +29,8 @@ class HomePage extends Component {
             <div className="container">
                 <h3 className="main-header">React Tutorial</h3>
                 <div>
-                    <button className="button-space" onClick={this.renderAbout}>About me</button>
-                    <button onClick={this.renderTodo}>Todo List</button>
+                    <button className="button-space button" onClick={this.renderAbout}>About me</button>
+                    <button className="button" onClick={this.renderTodo}>Todo List</button>
                     <hr/>
                 </div>
                 <h2>Hey bro, welcome to the homepage!</h2>
