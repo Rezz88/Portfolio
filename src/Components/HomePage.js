@@ -10,7 +10,9 @@ class HomePage extends Component {
             "HTML",
             "CSS",
             "NodeJS",
-            "ExpressJS"
+            "ExpressJS",
+            "jQuery",
+            "Bootstrap"
           ]
         }
       };
@@ -27,14 +29,17 @@ class HomePage extends Component {
         console.log(this.props)
         return (
             <div className="container">
-                <h3 className="main-header">React Tutorial</h3>
+                <h2 className="main-header">React Tutorial</h2>
                 <div>
                     <button className="button-space button" onClick={this.renderAbout}>About me</button>
                     <button className="button" onClick={this.renderTodo}>Todo List</button>
                     <hr/>
                 </div>
                 <h2>Hey bro, welcome to the homepage!</h2>
-                <p>A simple tutorial showing the basics of react.</p>
+                <p>A simple web page showing the basics of react.</p>
+                <p>A YouTube tutorial is provided below. Showing the concepts and methods used to create this web page.</p>
+                <p>This web page was initially created to help educate my half-brother, who is a web developer in Mexico, on how to utilize react.</p>
+                
                 <a className="video-link"
                     target="_blank"
                     rel="noopener noreferrer"

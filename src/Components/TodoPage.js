@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 
-
 class TodoPage extends Component {
     constructor() {
         super();
@@ -29,7 +28,7 @@ class TodoPage extends Component {
         console.log(this.state)
         return (
             <div className="container">
-                <h3 className="main-header">React Tutorial</h3>
+                <h2 className="main-header">React Tutorial</h2>
                 <div>
                     <button className="button" onClick={this.returnHome}>Home</button>
                     <hr/>
@@ -40,7 +39,6 @@ class TodoPage extends Component {
                 <button className="button" onClick={this.remove}>Delete list</button>
                 {this.state.list.map(x => <li>{x}</li>)}
             </div>
-            
         )
     }
 }
