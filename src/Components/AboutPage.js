@@ -28,17 +28,17 @@ class AboutPage extends Component {
                     <h2>P R O J E C T S</h2>
                     <h4>WhatsLit</h4>
                     <p>A web app that allows users to simplify their night life experience.</p>
-                    <iframe title="project1"width="380" height="250" src="https://www.youtube.com/embed/2gOtNjfhYjE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    <iframe title="project1"width="380" height="250" src="https://www.youtube.com/embed/2gOtNjfhYjE" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
 
                     <hr/>
                     <h4>Alibay Marketplace</h4>
                     <p>A marketplace website, allowing users to buy and sell items from other members.</p>
-                    <iframe title="project2" width="380" height="250" src="https://www.youtube.com/embed/Jc7LbmBa-dU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    <iframe title="project2" width="380" height="250" src="https://www.youtube.com/embed/Jc7LbmBa-dU" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
                     
                     <hr/>
                     <h4>Nayan Cat Game</h4>
                     <p>Object-oriented programming project</p>
-                    <iframe title="project3" width="380" height="250" src="https://www.youtube.com/embed/KgsA_YL-3FU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    <iframe title="project3" width="380" height="250" src="https://www.youtube.com/embed/KgsA_YL-3FU" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
                 </div>
                 <div>
                     <hr/>
