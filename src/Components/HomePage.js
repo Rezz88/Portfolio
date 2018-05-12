@@ -28,7 +28,7 @@ class HomePage extends Component {
     render() {
         console.log(this.props)
         return (
-            <div className="container">
+            <div className="container container-style">
                 <h2 className="main-header">React Tutorial</h2>
                 <div>
                     <button className="button-space button" onClick={this.renderAbout}>About me</button>

@@ -27,7 +27,7 @@ class TodoPage extends Component {
     render() {
         console.log(this.state)
         return (
-            <div className="container">
+            <div className="container container-style">
                 <h2 className="main-header">React Tutorial</h2>
                 <div>
                     <button className="button" onClick={this.returnHome}>Home</button>
