@@ -19,7 +19,7 @@ class AboutPage extends Component {
                 <button className="button" onClick={this.renderHome}>Home</button>
                 <hr />
                 <h2>My name is Emmanuel Perez,</h2>
-                <p>I'm a junior web developer who recently graduated from DecodeMTL.</p>
+                <p>I'm a junior web developer and graduate from DecodeMTL.</p>
                 <h5>MY SKILLS</h5>
                 <ul>
                     {this.mySkills().map(x => <li>{x}</li>)}
