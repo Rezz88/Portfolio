@@ -1,7 +1,14 @@
 .main-header {
   text-align: center;
-  background: lightskyblue;
-  color: white;
+  background: white;
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+body {
+  color: whitesmoke;
+  font-style: arial helvetica sans-serif 
 }
 
 .video-link {
@@ -10,8 +17,9 @@
 }
 
 .container-style {
-  background-color: whitesmoke;
+  background-color: rgba(0, 0, 0, 0.40);
   padding: 2%;
+  border: solid whitesmoke 1px;
 }
 
 .button-space {
@@ -33,4 +41,13 @@
 .button:hover {
   background-color: #555555;
   color: white;
+}
+
+hr {
+  width: 75%;
+}
+
+body{
+  background: url("https://www.planwallpaper.com/static/images/3-4.jpg") no-repeat;
+  background-size: inherit;
 }
